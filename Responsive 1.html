@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConceptForge | Cinematic Character Portfolio</title>
+    <meta name="description" content="ConceptForge portfolio for cinematic character design, digital art, and game asset creation." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="ConceptForge home">ConceptForge</a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contact" class="hire-btn">Hire Me</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Hero section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Character Artist • World Builder</p>
+          <h1>Bringing Cinematic Characters to Life</h1>
+          <a href="#gallery" class="cta-btn">Explore Gallery</a>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="small-tag">Featured Work</p>
+            <h2>Selected Artworks</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item item-1">
+              <div class="gallery-overlay">
+                <span>Celestial Sentinel</span>
+              </div>
+            </figure>
+            <figure class="gallery-item item-2">
+              <div class="gallery-overlay">
+                <span>Night Reaver</span>
+              </div>
+            </figure>
+            <figure class="gallery-item item-3">
+              <div class="gallery-overlay">
+                <span>Void Apostle</span>
+              </div>
+            </figure>
+            <figure class="gallery-item item-4">
+              <div class="gallery-overlay">
+                <span>Solar Warden</span>
+              </div>
+            </figure>
+            <figure class="gallery-item item-5">
+              <div class="gallery-overlay">
+                <span>Phantom Sovereign</span>
+              </div>
+            </figure>
+            <figure class="gallery-item item-6">
+              <div class="gallery-overlay">
+                <span>Iron Nomad</span>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container about-wrap">
+          <div class="portrait-wrap" aria-label="Artist portrait">
+            <div class="portrait-frame">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Artist portrait" />
+            </div>
+          </div>
+
+          <div class="about-copy">
+            <p class="small-tag">About</p>
+            <h2>Crafting bold visual stories for games, films, and worlds.</h2>
+            <p>
+              I design immersive characters and cinematic concept art that balance emotion, silhouette, and world-building. My process blends digital painting, sculpting references, and game-ready asset thinking to create visuals that feel both evocative and production-ready.
+            </p>
+            <p>
+              Specializing in digital editing, character design, and futuristic asset creation, I help studios and creators turn ideas into memorable, collectible visual identities.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="process-section">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="small-tag">Process</p>
+            <h2>From concept to final frame</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-card">
+              <span>01</span>
+              <h3>Research</h3>
+              <p>Gathering references, narrative cues, and moodboards for visual direction.</p>
+            </article>
+            <article class="process-card">
+              <span>02</span>
+              <h3>Concept</h3>
+              <p>Designing silhouettes, palettes, and forms that define character identity.</p>
+            </article>
+            <article class="process-card">
+              <span>03</span>
+              <h3>Render</h3>
+              <p>Creating polished, cinematic renders with layered lighting and texture work.</p>
+            </article>
+            <article class="process-card">
+              <span>04</span>
+              <h3>Delivery</h3>
+              <p>Final asset polish tailored for games, portfolios, and marketing visuals.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div class="footer-copy">
+          <p class="small-tag">Contact</p>
+          <h2>Let’s build your next cinematic world.</h2>
+          <div class="social-links" aria-label="Social links">
+            <a href="#" target="_blank" rel="noreferrer">ArtStation</a>
+            <a href="#" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="#" target="_blank" rel="noreferrer">YouTube</a>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="field-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="Your name" />
+          </div>
+          <div class="field-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="you@example.com" />
+          </div>
+          <div class="field-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Inquiry</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
